@@ -12,5 +12,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: Dxooam
-          username: '${{ secrets.Dxooam }}'
-          password: '${{ secrets.j~EKhOM:JE<zsz_C`J+n]M%#:OE;]GW"~i*Z}Qr }}'
+          username: '${{ secrets.DOCKER_USERNAME }}'
+          password: '${{ secrets.DOCKER_PASSWORD }}'
